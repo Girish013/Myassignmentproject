@@ -1,0 +1,4 @@
+FROM alpine:latest
+MAINTAINER "girishhc1996@gmail.com"
+RUN apk upgrade && apk --add 
+CMD ["/bin/bash"]
